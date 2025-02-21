@@ -2,9 +2,7 @@
   margin: 0%;
   padding: 0%;
   text-align: center;
-
 }
-
 
 h1{
   background-color: #2a2b2e;
@@ -13,16 +11,13 @@ h1{
   line-height: 3.2rem;
 }
 
-
 .choice{
   height: 100px;
   width: 100px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid black;
-
 }
 
 .choice:hover{
@@ -35,7 +30,6 @@ img{
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  
 }
 
 .choices{
@@ -43,10 +37,8 @@ img{
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  margin-top: 4rem;
- 
+  margin-top: 4rem; 
 }
-
 .scoreCard{
   display: flex;
   justify-content: center;
@@ -63,8 +55,8 @@ img{
 
 .msg-container{
   margin-top: 3rem;
-
 }
+
 #msg{
   font-size: 1.5rem;
   background-color: #98ebea;
@@ -72,7 +64,6 @@ img{
   display: inline;
   border-radius: 6px;
   color: white;
-
 }
 
 
