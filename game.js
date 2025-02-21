@@ -15,8 +15,6 @@ const getCompChoice = ()=>{
 const drawGame=(userChoice,compChoice)=>{
     msg.innerText="its a Draw! Try again";
     msg.style.backgroundColor= "blue";
-    
-
 }
 
 const showWinner=(userWin, userChoice, compChoice) =>{
@@ -36,11 +34,8 @@ const showWinner=(userWin, userChoice, compChoice) =>{
 };
 
 const playGame=(userChoice) =>{
-    
-    //comp choice
+     //comp choice
     const compChoice= getCompChoice();
-    
-
      if (userChoice=== compChoice){
         //game is draw
         drawGame();
@@ -62,14 +57,11 @@ const playGame=(userChoice) =>{
         }
         showWinner(userWin, userChoice, compChoice);
      }
-
 }
-
 
 choices.forEach((choice)=>{
     choice.addEventListener("click",()=>{
         const userChoice= choice.getAttribute("id");
         playGame(userChoice);
-
     })
 })
